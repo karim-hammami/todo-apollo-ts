@@ -12,7 +12,6 @@ export default gql`
 
     type Query {
         allTodos: [Todo]
-        test: String
     }
 
     type Mutation {
